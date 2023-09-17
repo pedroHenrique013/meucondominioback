@@ -43,6 +43,7 @@ public class ApplicationMoradorMapper {
                         .bloco(cadastrarMoradorRequestDTO.getMorador().getBloco())
                         .build())
                 .login(Login.builder()
+                        .email(cadastrarMoradorRequestDTO.getEmail())
                         .senha(cadastrarMoradorRequestDTO.getLogin().getSenha())
                         .build())
                 .build();

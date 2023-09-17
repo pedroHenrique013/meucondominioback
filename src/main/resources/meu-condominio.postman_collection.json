@@ -10,13 +10,16 @@
 			"name": "Login",
 			"item": [
 				{
-					"name": "Validar-login",
+					"name": "Consultar Login",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"sdstanisci@gmail.com\",\r\n    \"senha\" : \"123\"\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -24,7 +27,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/meucondominio/login/validar-login",
+							"raw": "http://localhost:8080/meucondominio/login/ruhmarcelle@gmail.com",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -33,7 +36,7 @@
 							"path": [
 								"meucondominio",
 								"login",
-								"validar-login"
+								"ruhmarcelle@gmail.com"
 							]
 						}
 					},
